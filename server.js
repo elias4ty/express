@@ -12,9 +12,9 @@ var webpack = require('webpack');
 var webpackConfig = require('./webpack.dev.config');
 var compiler = webpack(webpackConfig);
 
-// app.get("/",function(req,res) {
-//     res.send(njk.render('./index.html'))
-// });
+ app.get("/",function(req,res) {
+     res.send(njk.render('./index.html'))
+ });
 
 
 // Step 2: Attach the dev middleware to the compiler & the server
