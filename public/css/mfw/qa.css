@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-style: normal;
+  -webkit-tap-highlight-color: transparent; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #fff; }
+
+body {
+  background-color: #fff; }
+
+header {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  position: relative; }
+  header a {
+    background: url("https://css.mafengwo.net/mobile/images/header/i_head5.png") no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 100px;
+    position: absolute;
+    left: 0; }
+
+footer {
+  height: 51px;
+  position: fixed;
+  bottom: 0;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(209, 210, 219, 0.5);
+  width: 100%;
+  background-color: #fff; }
+  footer a {
+    background-color: #ff9d00;
+    line-height: 31px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    border-radius: 5px; }
+    footer a::before {
+      content: '';
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      margin-right: 10px;
+      background: url("https://css.mafengwo.net/mobile/images/ask/new-ask-icon4.png") no-repeat;
+      background-size: 50px;
+      background-position: -20px -12px; }
+
+.banner img {
+  width: 100%; }
+
+.search {
+  padding: 10px 15px;
+  height: 31px;
+  border-bottom: 1px solid rgba(209, 210, 219, 0.5); }
+  .search a {
+    background-color: #f0f0f0;
+    position: relative;
+    display: block;
+    height: 31px;
+    border-radius: 5px; }
+    .search a i {
+      position: absolute;
+      left: 10px;
+      display: inline-block;
+      height: 18px;
+      width: 18px;
+      background: url("https://css.mafengwo.net/mobile/images/ask/ico5.png") no-repeat;
+      background-size: 18px;
+      top: 22%; }
+
+.list {
+  background-color: #f0f0f0; }
+  .list .last {
+    margin-bottom: 0; }
+  .list a {
+    padding: 14px 15px 18px;
+    border-bottom: 1px solid rgba(209, 210, 219, 0.5);
+    margin-bottom: 10px;
+    display: block;
+    background-color: #fff; }
+    .list a .title {
+      margin-bottom: 8px;
+      font-size: 17px; }
+    .list a .author {
+      margin: 10px 0;
+      font-size: 14px;
+      line-height: 20px; }
+      .list a .author img {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 8px; }
+      .list a .author span {
+        color: #666; }
+    .list a .desc {
+      margin-bottom: 10px;
+      overflow: hidden; }
+      .list a .desc figure {
+        float: left;
+        margin-right: 10px; }
+        .list a .desc figure img {
+          height: 105px;
+          width: 140px; }
+      .list a .desc article {
+        display: -webkit-box;
+        line-height: 26px;
+        color: #666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical; }
+    .list a .foot {
+      overflow: hidden; }
+      .list a .foot .location {
+        float: left;
+        color: #999;
+        font-size: 15px;
+        line-height: 15px; }
+      .list a .foot .sm {
+        float: right; }
+        .list a .foot .sm em {
+          color: #999;
+          font-size: 15px;
+          line-height: 15px; }
+          .list a .foot .sm em.zan {
+            color: #ff9d00; }
+      .list a .foot b {
+        color: #999;
+        font-weight: bold; }
+
+.more {
+  padding: 15px;
+  margin-bottom: 51px; }
+  .more a {
+    height: 35px;
+    display: block;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #999;
+    font-size: 14px;
+    line-height: 35px;
+    border-radius: 5px; }

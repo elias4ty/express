@@ -1,5 +1,4 @@
 var http = require('http');
-var njk = require('nunjucks')
 var express = require('express');
 var app = express();
 

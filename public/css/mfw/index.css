@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  color: #000;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  font-size: 20px;
+}
+header{
+  height: 2.5rem;
+  width: 100%;
+  border-bottom: 1px solid rgba(209, 210, 219, 0.5);
+}
+header figure{
+  float: left;
+  height: 1.5rem;
+  width: 5.1rem;
+  padding: .5rem .75rem;
+}
+header figure img{
+  height: 1.5rem;
+  width: 5.1rem;
+}
+header div {
+  font-size: 0;
+  height: 2.5rem;
+  float: right;
+  text-align: center;
+  line-height: 2.5rem;
+}
+header div a{
+  color: #ff9d00;
+  font-size: 15px;
+  width: 4.6rem;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+header div a::after{
+  position: absolute;
+  content: '';
+  height: .8rem;
+  width: 1px;
+  right: 0;
+  top:17px;
+  background: rgba(209, 210, 219, 0.5);
+}
+header div i{
+  background: url('https://css.mafengwo.net/mobile/images/header/i_head5.png') no-repeat;
+  background-size: 5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-position: 0 -2.5rem;
+  display: inline-block;
+}
+.wrapper{
+  width: 100%;
+}
+section{
+  border-bottom: 1px solid rgba(209, 210, 219, 0.5);
+}
+.wrapper .search{
+  margin: .5rem .75rem;
+  height: 1.4rem;
+  background-color: #f2f2f2;
+  line-height: 1.4rem;
+  color: #696969;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.wrapper .search span::before{
+  content: '';
+  background: url('https://css.mafengwo.net/mobile/images/mdd/i_search.png') no-repeat;
+  background-size: .6rem;
+  display: inline-block;
+  height: .6rem;
+  width: .6rem;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.wrapper .banner{
+  position: relative;
+  height: 7.5rem;
+}
+.wrapper .banner img{
+  width: 100%;
+  height: 7.5rem;
+}
+.wrapper .banner a{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  padding-left: 15px;
+  background: -webkit-linear-gradient(top,transparent,rgba(0,0,0,0.6));
+  box-sizing: border-box;
+}
+.wrapper .banner a::after{
+  content: '';
+  background: url('https://css.mafengwo.net/mobile/images/mdd/i_index.png') no-repeat;
+  display: inline-block;
+  height: 1.2em;
+  width: .8rem;
+  position: absolute;
+  right: 1rem;
+  top:.8rem;
+  background-size: 4rem;
+}
+.wrapper section{
+  padding: 0 .75rem;
+}
+.wrapper section .item_title{
+  display: block;
+  height: 4.8rem;
+  padding: 1.5rem 0 1.25rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(209, 210, 219, 0.5);
+  box-sizing: border-box;
+}
+.wrapper section .item_title p{
+  line-height: 1.5rem;
+  font-size: 20px;
+}
+.wrapper section .item_title i{
+  background: url('https://css.mafengwo.net/mobile/images/mdd/i_index.png') no-repeat;
+  display: inline-block;
+  height: 1.1rem;
+  width: 1.1rem;
+  background-position: 0 -14px;
+  background-size: 72px;
+  margin-left: 6px;
+  vertical-align: top;
+}
+.wrapper section .item_title span{
+  line-height: .5rem;
+  font-size: 14px;
+  color: #999;
+}
+.wrapper .scroll{
+  height: 2.2rem;
+  overflow: auto;
+}
+.wrapper .bar{
+  width: 30.5rem;
+  font-size: 0;
+}
+.wrapper .bar div{
+  display: inline-block;
+  color: #696969;
+}
+.wrapper .scroll a{
+  line-height: 13px;
+  margin: 1rem 0 .5rem;
+  padding: 0 1rem;
+  text-align: center;
+  border-right: 1px solid rgba(209, 210, 219, 0.5);
+  font-size: 16px;
+  display: inline-block;
+}
+.wrapper .scroll .first{
+  padding-left: 0;
+}
+.wrapper .scroll .last{
+  border-right: none;
+}
+.wrapper .scroll .cur{
+  position: relative;
+}
+.wrapper .scroll .cur a{
+  color: #ff9d00 ;
+}
+.wrapper .scroll .cur::after{
+    content: '';
+    background-color: #ff9d00;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    left: 1rem;
+    right: 1rem;
+}
+.wrapper .scroll .kao::after{
+  left: 0;
+}
+.wrapper .location{
+  margin-top: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrapper .location a{
+  /*padding-right: .75rem;
+  display: inline-block;
+  float: left;*/
+  margin-bottom: 1.25rem;
+}
+.wrapper .location img{
+  height: 4.2rem;
+  /*width: 5rem;*/
+}
+.wrapper .location span{
+  font-size: 15px;
+  display: block;
+  margin-top: 3px;
+  text-align: center;
+}
+.wrapper button{
+  height: 2.2rem;
+  width: 8.6rem;
+  border: 1px solid #ff9d00;
+  border-radius: 5px;
+  color: #ff9d00;
+  font-size: 14px;
+  line-height: 2.2rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  background-color: #fff;
+  position: relative;
+  left: 25%;
+}

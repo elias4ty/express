@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-style: normal;
+  -webkit-tap-highlight-color: transparent; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background-color: #fff; }
+
+header {
+  height: 50px; }
+  header .logo {
+    display: inline-block;
+    width: 132px;
+    background: url("https://css.mafengwo.net/mobile/images/header/logo204.png") no-repeat;
+    padding: 10px 15px;
+    height: inherit;
+    box-sizing: border-box;
+    background-position: 15px 12px;
+    background-size: 102px; }
+  header .right {
+    float: right;
+    width: 143px;
+    height: inherit;
+    font-size: 0; }
+    header .right span {
+      width: 93px;
+      line-height: 50px;
+      display: inline-block;
+      color: #ff9d00;
+      text-align: center;
+      position: relative;
+      font-size: 0.4rem;
+      vertical-align: top; }
+      header .right span::after {
+        content: '';
+        height: 15px;
+        width: 1px;
+        background: rgba(209, 210, 219, 0.5);
+        top: 35%;
+        right: 0;
+        position: absolute; }
+    header .right i {
+      width: 50px;
+      background: url("https://css.mafengwo.net/mobile/images/header/i_head5.png") no-repeat;
+      background-size: 100px;
+      background-position: 0 -50px;
+      display: inline-block;
+      height: inherit; }
+
+section.scroll {
+  height: 11.33333rem;
+  background: url("https://css.mafengwo.net/mobile/images/post/note/fs-bg.png") no-repeat;
+  padding: 0.66667rem 0.26667rem 0;
+  position: relative;
+  background-size: 10.8rem; }
+  section.scroll .head {
+    margin-bottom: 0.66667rem;
+    height: 0.8rem;
+    font-size: 0;
+    vertical-align: top;
+    position: relative; }
+    section.scroll .head .title {
+      border-left: 2px solid #fff;
+      border-right: 2px solid #fff;
+      overflow: hidden;
+      height: 0.8rem;
+      display: inline-block;
+      position: absolute;
+      left: 0; }
+      section.scroll .head .title ul li {
+        float: left;
+        color: #fff;
+        font-size: 0.69333rem;
+        padding: 0 0.10667rem;
+        line-height: 0.8rem; }
+        section.scroll .head .title ul li em {
+          display: block;
+          text-align: center;
+          font-size: 0.26667rem;
+          color: #fff;
+          line-height: 0.4rem; }
+      section.scroll .head .title li:nth-child(1) {
+        font-size: 0.74667rem; }
+      section.scroll .head .title li:nth-child(2) {
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff; }
+    section.scroll .head .calendar {
+      width: 2.10667rem;
+      height: 0.90667rem;
+      border-radius: 0.72rem;
+      background-color: #111;
+      float: right;
+      font-size: 0.26667rem;
+      color: #fff;
+      display: inline-block;
+      position: absolute;
+      right: 0; }
+      section.scroll .head .calendar a {
+        display: inline-block;
+        margin: 0.13333rem 0 0 0.4rem;
+        line-height: 0.32rem;
+        position: relative; }
+        section.scroll .head .calendar a em {
+          color: #fff;
+          display: block; }
+      section.scroll .head .calendar i {
+        background: url("https://css.mafengwo.net/mobile/images/post/note/icon.png") no-repeat;
+        background-size: 1.30667rem;
+        position: absolute;
+        top: 0.18667rem;
+        right: 0.4rem;
+        height: 0.56rem;
+        width: 0.53333rem;
+        display: inline-block; }
